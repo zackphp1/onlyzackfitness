@@ -1,0 +1,336 @@
+body{
+    margin: 5px;
+    background-color: #000000; 
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Montserrat', sans-serif; */
+    font-family: 'Ibarra Real Nova', serif;
+    color: #ffffff;
+}
+
+/* Navigation Section */
+nav{
+    margin-top: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    
+}
+nav ul{
+    display: flex;
+   list-style: none;
+}
+
+nav ul li{
+    margin-right: 20px;
+    
+}
+
+nav ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: bold;
+    position: relative;
+    
+}
+nav ul li a::after{
+        content: '';
+        width: 50%;
+        height: 3px;
+        background: #ff0000;
+        position: absolute;
+        left: 0;
+       bottom: -4px;
+        transition: 0.5s;
+    
+}
+
+nav ul li a:hover::after{
+    width: 100%;
+}
+
+
+
+/* Getting Started Section */
+#sec-2{
+    margin-top: 40px;
+    height: 600px;
+    background-image: url(images/gettingstarted.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#sec-2 p{
+    color: rgba(255, 255, 255, 0.918);
+    text-align: center;
+    font-size: 25px;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    line-height: 40px;
+    font-style: italic;
+   
+}
+
+
+/* What we do Section */
+#sec-3{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25%;
+    
+    
+}
+
+
+.sec-3-car {
+    background-image: url(images/cardiovascular.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    width: 300px;
+    border-radius: 20px;
+    position: relative;
+}
+
+
+.sec-3-car a{
+    text-decoration: none;
+    position: absolute;
+    text-align: center;
+    top: 110%;
+    right: 20%;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #ffffff;
+    
+}
+
+.sec-3-mus{
+    background-image: url(images/musclebuilding.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    width: 300px;
+    border-radius: 20px;
+    position: relative;
+}
+.sec-3-mus a{
+    text-decoration: none;
+    position: absolute;
+    text-align: center;
+    top: 110%;
+    right: 10%;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #ffffff;
+    
+}
+
+
+.sec-3-box{
+    background-image: url(images/boxing.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    width: 300px;
+    border-radius: 20px;
+    position: relative;
+}
+
+.sec-3-box a{
+    text-decoration: none;
+    position: absolute;
+    text-align: center;
+    top: 110%;
+    right: 25%;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #ffffff;
+    
+}
+
+
+.sec-3-phy{
+    background-image: url(images/physiotherapy.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    width: 300px;
+    border-radius: 20px;
+    position: relative;
+}
+
+.sec-3-phy a{
+    text-decoration: none;
+    position: absolute;
+    text-align: center;
+    top: 110%;
+    right: 25%;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #ffffff;
+    
+}
+
+
+
+
+/* What we offer Section */
+#sec-4{
+    margin-top: 25%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+#sec-4 p{
+    text-transform: uppercase;
+    text-align: left;
+    margin-top: 40px;
+    margin-bottom: 15px;
+    padding-left: 30px;
+    font-size: 30px;
+    
+    
+}
+
+.sec-4-per {
+    background-image: url(images/personaltrainer.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    width: 300px;
+    border-radius: 20px;
+    position: relative;
+    
+}
+
+
+
+.sec-4-bas {
+    background-image: url(images/crossfit.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    width: 300px;
+    border-radius: 20px;
+    position: relative;
+}
+
+
+.sec-4-pow {
+    background-image: url(images/powerlifter.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    width: 300px;
+    border-radius: 20px;
+    position: relative;
+}
+
+.sec-4-nut {
+    background-image: url(images/nutrition2.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    width: 300px;
+    border-radius: 20px;
+    position: relative;
+}
+
+.writeup{
+    margin: 45px 30px 0;
+    padding-left: 8px;
+    border: solid #ff0000 2px;
+    border-top: none;
+    border-bottom: none;
+    border-right: none;
+    line-height: 20px;
+    background-color: #00000065;
+    
+
+}
+
+
+
+.sec-4-but{
+   display: flex;
+  justify-content: center;
+  position: absolute;
+  bottom: 60px;
+  left: 30px;
+  
+}
+
+.sec-4-but button{
+    color: rgb(255, 255, 255);
+    border-width: 3px;
+    line-height: 20px;
+    border-color: #ff0000;
+    background-color: transparent;
+    padding: 15px 40px;
+    font-weight: 300;
+    
+}
+
+.sec-4-but button:hover{
+    background-color: #ff0000;
+    transition: 0.3s;
+}
+
+/* Talk to an instructor Section*/
+#sec-5{
+    margin: 80px 0;
+    background-color: #ff0000;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.sec-5-one p{
+    font-size: 40px;
+}
+
+
+
+
+
+.sec-5-two button{
+    border-width: 5px;
+    border-style: none;
+    line-height: 20px;
+    border-color: #ffffff;
+    padding: 20px 50px;
+    font-weight: 300;
+
+}
+
+.sec-5-two button:hover{
+    color: #ff0000;
+    transition: 0.3s;
+}
+
+
+
+footer{
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+footer ul{
+    display: flex;
+    list-style: none;
+}
+
+footer ul li{
+    margin-right: 20px;
+}
+footer ul li a{
+    text-decoration: none;
+    color: #ffffff;
+}
